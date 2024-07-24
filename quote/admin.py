@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Quote, Item, Company
+from .models import Company, Item, Quote
 
 admin.site.register(Quote)
 admin.site.register(Item)

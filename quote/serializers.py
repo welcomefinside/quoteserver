@@ -1,5 +1,7 @@
 from rest_framework import serializers
-from .models import Quote, Item
+
+from .models import Item, Quote
+
 
 class QuoteSerializer(serializers.ModelSerializer):
 
@@ -9,7 +11,7 @@ class QuoteSerializer(serializers.ModelSerializer):
         allow_null=True,
         required=False,
     )
+
     class Meta:
         model = Quote
-        fields = '__all__'
-    
+        fields = "__all__"

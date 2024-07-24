@@ -4,6 +4,7 @@ from django.db import models
 
 from .constants import QUOTE_STATUS_CHOICES
 
+
 class BaseModel(models.Model):
 
     id = models.UUIDField(primary_key=True, default=uuid4, editable=False)
