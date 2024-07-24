@@ -1,0 +1,9 @@
+QUOTE_STATUS_QUOTE = "quote"
+QUOTE_STATUS_DEPOSIT = "deposit"
+QUOTE_STATUS_PAID = "paid"
+
+QUOTE_STATUS_CHOICES = (
+    (QUOTE_STATUS_QUOTE, "Quote"),
+    (QUOTE_STATUS_DEPOSIT, "Deposit"),
+    (QUOTE_STATUS_PAID, "Paid"),
+)
